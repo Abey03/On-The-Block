@@ -1,26 +1,31 @@
 //
 //  ContentView.swift
-//  On The Block
+//  Launch screen
 //
-//  Created by Abe Molina on 7/24/23.
+//  Created by Joshua M. Escobedo on 5/12/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject private var locationManager: LocationManager
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        if UserDefaults.standard.welcomeScreenShown{
+            homeScreenView(store: .example)
+        } else {
+            WelcomeScreen()
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(LocationManager())
     }
 }
+
