@@ -34,6 +34,7 @@
 		9D46D7EA2A6F722F005EBC0F /* ScrapbookExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46D7E92A6F722F005EBC0F /* ScrapbookExtension.swift */; };
 		9D46D7EC2A6F724C005EBC0F /* UserDefaultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46D7EB2A6F724C005EBC0F /* UserDefaultExtension.swift */; };
 		9D46D7EE2A6F7264005EBC0F /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D46D7ED2A6F7264005EBC0F /* FileManagerExtension.swift */; };
+		9D494E0A2A6F78EC007F9B50 /* On-The-Block-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D494E092A6F78EC007F9B50 /* On-The-Block-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +85,7 @@
 		9D46D7E92A6F722F005EBC0F /* ScrapbookExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookExtension.swift; sourceTree = "<group>"; };
 		9D46D7EB2A6F724C005EBC0F /* UserDefaultExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultExtension.swift; sourceTree = "<group>"; };
 		9D46D7ED2A6F7264005EBC0F /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
-		9D46D7EF2A6F7364005EBC0F /* On-The-Block-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "On-The-Block-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9D494E092A6F78EC007F9B50 /* On-The-Block-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "On-The-Block-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +136,7 @@
 		9D46D7972A6F6F19005EBC0F /* On The Block */ = {
 			isa = PBXGroup;
 			children = (
-				9D46D7EF2A6F7364005EBC0F /* On-The-Block-Info.plist */,
+				9D494E092A6F78EC007F9B50 /* On-The-Block-Info.plist */,
 				9D46D7982A6F6F19005EBC0F /* On_The_BlockApp.swift */,
 				9D46D79A2A6F6F19005EBC0F /* ContentView.swift */,
 				9D46D7D02A6F705A005EBC0F /* homeScreenView.swift */,
@@ -333,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D494E0A2A6F78EC007F9B50 /* On-The-Block-Info.plist in Resources */,
 				9D46D7A02A6F6F1A005EBC0F /* Preview Assets.xcassets in Resources */,
 				9D46D79D2A6F6F1A005EBC0F /* Assets.xcassets in Resources */,
 			);
