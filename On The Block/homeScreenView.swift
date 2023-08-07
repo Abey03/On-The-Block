@@ -43,7 +43,7 @@ struct homeScreenView: View {
                             .bold()
                         
                         NavigationLink {
-                            ScrapbookView()
+                            RandomBusinessView(store: .example)
                         } label: {
                             Image(systemName:"photo.stack")
                                 .resizable()
