@@ -23,11 +23,13 @@ struct RandomBusinessView: View {
         VStack {
             
             Text("RANDOM BUSINESS BELOW")
+                .font(.title2)
                 .bold()
             
           
             Text(store.storeName)
-            Text(store.bio)
+                .font(.title3)
+                .padding()
             Image(store.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -39,7 +41,10 @@ struct RandomBusinessView: View {
             }
             .buttonStyle(.bordered)
 
+            Spacer()
         }
+        .padding(.top)
+    
     }
     
 }
