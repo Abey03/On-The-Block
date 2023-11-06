@@ -1,10 +1,3 @@
-//
-//  home screen.swift
-//  Launch screen
-//
-//  Created by Joshua M. Escobedo on 5/19/23.
-//
-
 import SwiftUI
 import CoreLocation
 
@@ -14,7 +7,7 @@ struct homeScreenView: View {
     let stores = Store.example
     @EnvironmentObject private var locationManager: LocationManager
     @State private var query = ""
-    @State var searchText = ""
+    @State var searchText: String = ""
     
     
     var body: some View {
@@ -52,7 +45,11 @@ struct homeScreenView: View {
                         }
                     }
                     
+//                    Search bar
                     HStack {
+                        Image(systemName: "magnifyingglass")
+                            .foregroundColor(.gray)
+                        
                         TextField("Find a business", text: $searchText)
                     }
                     .padding(13)
@@ -60,8 +57,9 @@ struct homeScreenView: View {
                     .cornerRadius(12)
                     .padding(.horizontal)
                     .padding(.bottom)
-                    .font(Font.custom("MyFont", size: 10))
+                    .font(.headline)
                     
+//                    Main View
                     Text("Popular locations")
                         .padding(.top, 5)
                         .bold()
@@ -84,10 +82,6 @@ struct homeScreenView: View {
                             .font(.title2)
                             .padding(.trailing, 220)
                             .bold()
-                        
-                        Divider()
-                            .overlay(.primary)
-                            .padding(.horizontal)
                         
                         LazyVStack(alignment: .leading) {
                             RowView(store: .example)
