@@ -1,10 +1,3 @@
-//
-//  BusinessView.swift
-//  Launch screen
-//
-//  Created by Abe Molina on 5/26/23.
-//
-
 import SwiftUI
 
 // This is the individual business view
@@ -17,8 +10,6 @@ struct BusinessView: View {
     
     var body: some View {
         
-        NavigationView {
-            
             ScrollView(showsIndicators: false) {
                
                 LazyVStack(alignment: .leading) {
@@ -103,7 +94,7 @@ struct BusinessView: View {
                 .padding(.top)
             }
 //            .navigationTitle(store.storeName)
-        }
+        
         .padding(.horizontal)
         .padding(.top)
         .padding(.bottom)

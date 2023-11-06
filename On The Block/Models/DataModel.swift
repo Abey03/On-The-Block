@@ -1,10 +1,3 @@
-//
-//  BusinessModel.swift
-//  DataModeling
-//
-//  Created by Abe Molina on 5/19/23.
-//
-
 import Foundation
 import CoreLocation
 import MapKit
@@ -37,7 +30,7 @@ struct Store: Identifiable, Codable, Equatable {
         return formatter.string(from: distanceInMeters)
     }
     
-    static let example = Store(storeName: "Breadless", address: "2760 Larned St, Detroit, MI", phoneNumber: "313-488-4091", latitude: 42.3309, longitude: -83.0479, bio: "", hours: "", website: "stuff")
+    static let example = Store(storeName: "", address: "2760 Larned St, Detroit, MI", phoneNumber: "313-488-4091", latitude: 42.3309, longitude: -83.0479, bio: "", hours: "", website: "stuff")
     
     static func ==(lhs: Store, rhs: Store) -> Bool {
         lhs.id == rhs.id
