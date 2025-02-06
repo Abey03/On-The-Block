@@ -10,3 +10,5 @@ random business generator to help gamify the user experience.
 
 # Asking for Permissions
 <img src="https://github.com/Abey03/On-The-Block/blob/66c6ee42dc87f5a6eea822208c9b0381b8c95df2/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202024-11-21%20at%2023.42.14.png" width=429>
+
+<img src="https://github.com/Abey03/On-The-Block/blob/f2f4d97abad90b46102548678110274488522e69/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202024-11-21%20at%2023.42.23.png" width=429>
