@@ -21,7 +21,15 @@ random business generator to help gamify the user experience.
 
 # Map Sheet View
 Tap the "Nearby" icon to open the sheetview and get a list of businesses near you
+
 <img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.42.43.png" width=429>
+
+# Random Businesss Generator
+Allows the user to randomly generate a listed business
+
+<img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.43.03.png" width=429>
+
+
 
 
 
