@@ -16,3 +16,8 @@ random business generator to help gamify the user experience.
 # Home Screen
 <img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.42.33.png" width=429>
 
+# Custom Map
+<img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.42.40.png" width=429>
+
+
+
