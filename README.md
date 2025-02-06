@@ -5,6 +5,5 @@ in creating an app that showcases and notifies the user of minority owned busine
 within the proximity of the user using geolaction notifications, map services, and a 
 random business generator to help gamify the user experience.
 
-
-<img width="429" alt="![Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23 41 48](https://github.com/user-attachments/assets/c8ed8d73-1c94-425c-b362-ca1fdf7628a5)
-" src="[https://github.com/T-mabe/Booking-Feature/assets/118279405/a8d0c66a-b380-4c6c-bfa4-cded71a58271](https://github.com/Abey03/On-The-Block/edit/main/README.md)">
+# Starter Screen
+![image alt](https://github.com/Abey03/On-The-Block/blob/a72c3662ed2ebab2c21bc3a746c39a520985887b/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202024-11-21%20at%2023.41.48.png)
