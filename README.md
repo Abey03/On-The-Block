@@ -19,5 +19,9 @@ random business generator to help gamify the user experience.
 # Custom Map
 <img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.42.40.png" width=429>
 
+# Map Sheet View
+Tap the "Nearby" icon to open the sheetview and get a list of businesses near you
+<img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.42.43.png" width=429>
+
 
 
