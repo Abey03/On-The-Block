@@ -33,8 +33,7 @@ Allows the user to randomly generate a listed business
 <img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.43.03.png" width=429>
 
 # Individual Business View
-<img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.43.11.png
-" width=429>
+<img src="Simulator Screenshot - iPhone 16 Pro Max - 2024-11-21 at 23.43.11.png" width=429>
 
 
 
